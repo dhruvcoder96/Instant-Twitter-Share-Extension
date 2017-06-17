@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Instant Twitter Sharing Assistant",
+  "description": "This extension is for instant sharing to Twitter by just selecting and right clicking!{developed by Dhruv Dangwal}",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "twitter.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+      "scripts": ["background.js"]
+    },
+  "permissions":[
+    "contextMenus",
+    "tabs"
+  ],
+  "icons": { "16": "twitter.png",
+           "48": "twitter.png",
+          "128": "twitter.png" }
+}
